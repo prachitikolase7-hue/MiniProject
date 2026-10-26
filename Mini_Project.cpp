@@ -12,7 +12,6 @@ Student *next;
 Student *head = NULL;
 int seats[2][10];
 
-// Add student
 void addStudent()
 {
 Student *n = new Student;
@@ -44,7 +43,6 @@ cout << "Student added!\n";
 
 }
 
-// Display students
 void display()
 {
 Student *t = head;
@@ -59,7 +57,7 @@ while (t != NULL)
 
 }
 
-// Allocate seats using insertion sort
+
 void allocateSeats()
 {
 Student *a[20];
@@ -109,7 +107,6 @@ for (int i = 0; i < n; i++)
 
 }
 
-// Search student
 void searchStudent()
 {
 int r;
